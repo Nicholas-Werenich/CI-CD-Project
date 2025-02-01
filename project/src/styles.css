@@ -32,13 +32,22 @@ h1 {
     border-collapse: collapse;
 }
 
+#expenses-table th:hover {
+    background-color: #f6f6f6;
+}
+
 #expenses-table th, #expenses-table td {
-    border: 1px solid #eee;
+    border: 1px solid #ddd;
     padding: 8px;
+}
+
+#expenses-table td {
+    text-align: left;
 }
 
 #expenses-table th {
     background-color: #f2f2f2;
+    text-align: center;
 }
 
 #reports {
