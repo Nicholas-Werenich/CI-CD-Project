@@ -10,7 +10,6 @@ export class Reports {
   }
 
   init() {
-    const pointlessVariable = "This should hopefully cause a linting error due to an unused variable";
     const ctx = $('#category-chart')[0].getContext('2d');
     this.chart = new Chart(ctx, {
       type: 'pie',
